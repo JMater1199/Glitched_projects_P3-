@@ -21,14 +21,14 @@ master_dict = dict.fromkeys(specs_new)
 
 
 
-master_dict['Brand'] = ['Sumsung','Apple','JS','Wibites spetial']
-master_dict['model'] = ['A50','17pro','Vict','forever enjoy codding']
-master_dict['batery life'] = ['1h','30h','12h','15h']
-master_dict['chip set'] = ['snapdragon8 elite','Razon5661 elite','A19 pro','mediatek dimention 9500']
-master_dict['RAM'] = ['32GB','100GB','89GB','69GB']
-master_dict['fps'] = ['60','120','70','39']
-master_dict['price'] = ['11000k','1500k','9000k','24000k']
-print()
+master_dict['Brands'] =  ['sumsung', 'apple', 'xsoumi', 'redmagic', 'itel']
+master_dict['Models'] = ['AAA', 'BBB', 'CCC']
+master_dict['CPUs'] = ['snapdragon8', 'A8', 'Dimencity4550']
+master_dict['Speeds'] = ['2 GHz', '3 GHz', '3.15 GHz', '3.8 GHz']
+master_dict['RAMs'] = [ '2 GB', '4 GB', '8 GB', '16 GB']
+master_dict['Storages'] = [ '128 GB', '256 GB', '512 GB', '1024 GB']
+master_dict['Screensizes'] = [ '6.1 in', '6.5 in', '5 in', '7 in']
+master_dict['Prices'] = ['zm 9000', 'zm 27000', 'zm 12000']
 
 for n_phone in range(30):
   new_phone = dict.fromkeys(specs)
