@@ -3,13 +3,13 @@ import random
 laptop = {'brand':'sumsung','model':'A50','battery life':'11h' }
 
 print('welcome to joshus phone store ')
-print('we have a huge invetory of laptops')
+print('we have a huge invetory of phones')
 print('please indicate your prefrence of specs')
 print()
 
 def append_s(og):
     return og + 's'
-s
+
 print()
 
 phone_list = []
@@ -30,12 +30,11 @@ master_dict['fps'] = ['60','120','70','39']
 master_dict['price'] = ['11000k','1500k','9000k','24000k']
 print()
 
-for n in range(100):
-    new_phone = dict.fromkeys(specs)
-    for kk in new_phone:
-        new_phone[kk] = random.choice(master_dict[kk+'s'])
-    phone_list.apennd
-
+for n_phone in range(30):
+  new_phone = dict.fromkeys(specs)
+  for kk in new_phone:
+    new_phone[kk] = random.choice(master_dict[kk+'s'])
+  phone_list.append(new_phone)  
 
 user_choice = dict.fromkeys(specs)
 for kk in specs:
